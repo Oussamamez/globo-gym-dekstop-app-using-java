@@ -1,14 +1,14 @@
-
-
 # 💻 GloboGym
 
 ## 👀 About
 
-App for fictional gym "Globo Gym" created with JavaFX. It consists of over 50 classes and is robust system, which deliver a lot of functionalities to both users and employees. I spent many hours researching and designing all business cases to make the application as reliable as possible. Each feature has been developed with the greatest attention to detail to increase user comfort and reduce the susceptibility to errors. I also created responsive and intuitive UI, which makes app easy to navigate and use.
+Robust desktop application developed with usage of JavaFX designed to support major of operations of a modern fitness club. System has been carefully architected to address a wide range of business scenarios for both customers and employees. Development process involved deep research, precise modeling of use cases and rigorous attention to detail to ensure system reliability and intuitive UX. It covers all important business processes - user registration, membership management, scheduling, payments, role-based access and so on.
+
+Project demonstrates not only strong technical skills (Java, JavaFX, UI/UX design, OOP) but also ability to analyze real business requirements and translate them into robust, user-friendly solutions. It automates key operations, reduces human errors and enhances user experience with an intuitive, responsive interface. Also shows, how thoughtful system design can support digital transformation and improve efficiency of business in fitness industry.
 
 ## 🔧 Tech Stack
 
-- Java (OOP, Streams, Lambdas, Serialization)
+- Java 22 (OOP, Streams, Lambdas, Serialization)
 - JavaFX
 - Maven
 - CSS
@@ -16,20 +16,19 @@ App for fictional gym "Globo Gym" created with JavaFX. It consists of over 50 cl
 
 ## 💡 Features
 
-- App uses serialization mechanisms, so all changes, which you made are saved to file and are visible when you restart the app.
-- Validation for all forms in app.
-- Registration - you can register club member or coach account. Coach account requires approval by an employee.
-- Authentication - you can login to your accoun after registration.
-- All users have possibility to see opening hours of gym at approriate days and check whether gym is open now.
-- All users have possibility to see their profile, change profile picture and update data.
-- All users have possibility to see schedule (as calendar) with highlighted classes and other events on appropriate days and times.
-- All users have possibility to see some statistics related to their account.
-- Club members and coaches have possibility to deposit money and increase their balance. Their can also see payments history.
-- Club members and coaches have possibility to buy membership card, renew membership and to see appearance of their card.
-- Club members and coaches can sign up for classes if they are not already signed up, have active membership, classes are taking place in the future from now and there are still places available.
-- Employees and managers can add classes to schedule.
-- Coaches can also add classes to schedule, if their membership is active.
-- Employees and managers can add other events to schedule.
+- All user interactions and data changes are saved to file and visible after restarting app due to used serialization mechanisms.
+- All input fields across the application are validated to ensure data integrity.
+- Registration. Both club member and coach account can be created. Coach accounts require manual approval by authorized employee.
+- Authentication. Mechanism to login to user account after registration.
+- Real-time access to gym opening hours and open/closed status based on current time and date.
+- Personalized user dashboard with possibility to update personal data (with setting up specializations on coach accounts) and upload avatar.
+- Interactive calendar-based schedule view with highlighted classes and other events on appropriate days and times.
+- Possibility to see some statistics related to account, which is currently authenticated.
+- Payments module allowing users to deposit money, follow up their account balance and view transaction history.
+- Membership management view allowing to purchase/renew membership and visualize appearance of their membership card.
+- Intelligent class booking system for club members and coaches with validation (by checking active membership, availability, future dates or duplicates).
+- Possibility to add classes to schedule by coaches with active membership, employees and managers.
+- Possibility to add other events to schedule by employees and managers.
 - Administration panels for employees and managers.
 
 ## 💳 Example login data
