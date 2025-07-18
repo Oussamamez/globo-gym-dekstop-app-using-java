@@ -1,5 +1,7 @@
 # 💻 GloboGym
 
+![](./src/main/resources/img/logo-no-background.png)
+
 ## 👀 About
 
 Robust desktop application developed with usage of JavaFX designed to support major of operations of a modern fitness club. System has been carefully architected to address a wide range of business scenarios for both customers and employees. Development process involved deep research, precise modeling of use cases and rigorous attention to detail to ensure system reliability and intuitive UX. It covers all important business processes - user registration, membership management, scheduling, payments, role-based access and so on.
