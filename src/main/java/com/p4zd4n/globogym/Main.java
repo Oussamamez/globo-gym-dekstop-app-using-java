@@ -1,4 +1,4 @@
-package com.p4zd4n.globogym;
+ package com.p4zd4n.globogym;
 
 import com.p4zd4n.globogym.entities.*;
 import com.p4zd4n.globogym.enums.ClassesType;
